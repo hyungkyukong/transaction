@@ -65,7 +65,7 @@ class MemberServiceTest {
     @Test
     void singleTx() {
         //given
-        String username = "outerTxOff_success";
+        String username = "singleTx";
 
         //when
         memberService.joinV1(username);
